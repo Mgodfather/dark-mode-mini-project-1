@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body, html{
+    font-size: 62.5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 0.3s ease;
+}
+.body{
+    text-align: left;
+    max-width: 80%;
+    margin: 10rem auto;
+}
+
+.container{
+    margin-bottom: 8rem;
+}
+
+
+label{
+    font-size: 2.5rem;
+}
+
+.text-box h1{
+    font-size: 5rem;
+    text-transform: capitalize;
+}
+.specific-section h1{
+    padding: 7rem 6rem;
+    transition: all 0.2s ease;
+    border: 0.2rem solid blue;;
+
+    background-color: white;
+   color: black;
+}
+
+
+body.dark{
+    background-color: black;
+    color: white;
+}
+
+.specific-section h1.dark{
+    background-color: black;
+    color: white;
+}
